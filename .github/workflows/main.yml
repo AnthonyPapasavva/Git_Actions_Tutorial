@@ -39,4 +39,4 @@ jobs:
         run: ls -la
 
       - name: Run the script file added to repo
-        run: script.sh
+        run: chmod +x script.sh
